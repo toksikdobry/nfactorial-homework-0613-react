@@ -1,13 +1,55 @@
+.divv {
+  flex-direction: column;
+  display: flex;
+}
+
+.headerr {
+  background-color: darkslategray;
+  height: 10vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.div2 {
+  width: 40vh;
+  display: flex;
+  align-items: center;
+}
+
+.formm {
+  margin-left: 3vh;
+  border-radius: 2vh;
+  outline: none;
+  height: 3vh;
+  background-color: aquamarine;
+  color: darkslategray
+}
+
+.icon {
+  background-color: darkslategray;
+  width: 10vh;
+  height: 10vh;
+}
+.datetime{
+  margin-right: 2vh;
+  color: white;
+  align-items: center;
+}
+
 .block {
   display: flex;
   flex-direction: row;
 }
 .blockk {
   display: flex;
-  height: 100vh;
+  height: 90vh;
   justify-content: center;
   overflow: hidden;
   align-items: center;
+}
+.pic {
+  background-color: white;
 }
 .fontt {
   position: fixed;
@@ -15,7 +57,6 @@
   font-size: 50px;
   font-family:'Times New Roman', Times, serif;
 }
-
 @media screen and (max-width :768px ) {
   .block {
     display: flex;
@@ -24,7 +65,7 @@
   }
   .blockk {
     display: flex;
-    height: 20vh;
+    height: 18vh;
     justify-content: center;
     align-items: center;
   }
@@ -34,4 +75,26 @@
     font-size: 50px;
     font-family:'Times New Roman', Times, serif;
   }
+  .pic {
+    width: 100%;
+  }
+  .datetime{
+    color: white;
+    display: none;
+  }
+  .div2 {
+    width: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .formm {
+    margin-right: 5vh;
+    border-radius: 2vh;
+    outline: none;
+    height: 3vh;
+    background-color: aquamarine;
+    color: darkslategray
+
+}
 }
